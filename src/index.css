@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+/* 
+    @keyframes slideDown {
+        0% {
+            top: 42px;
+            opacity: 0.7;
+        }
+        100% {
+            top: 48px;
+            opacity: 1;
+        }
+    }
+
+    .sidebar {
+        animation: slideDown 0.25s ease-in;
+    } */
+}

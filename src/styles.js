@@ -24,5 +24,10 @@ const styles = {
   
     sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
   };
+
+  export const animation = {
+    transition: `transition duration-200 ease-in-out `,
+    sidebarTransition: `transition duration-300 ease-in-out`,
+  }
   
   export default styles;
