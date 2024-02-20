@@ -19,6 +19,7 @@ export {
     Button,
     CardDeal,
     Clients,
+    Stats,
     CTA,
     FeedbackCard,
     Footer,
