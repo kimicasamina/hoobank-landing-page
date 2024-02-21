@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './styles';
 // import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from './components';
 import Navbar from './components/Navbar';
-import { Hero, Stats } from './components';
+import { Business, Hero, Stats } from './components';
 
 const App = () => {
   return (
@@ -22,6 +22,7 @@ const App = () => {
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Stats />
+          <Business />
         </div>
       </div>
     </div>
