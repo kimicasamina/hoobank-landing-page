@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './styles';
 import Navbar from './components/Navbar';
-import { Billing, Business, CardDeal, Hero, Stats } from './components';
+import { Billing, Business, CardDeal, FeedbackCard, Hero, Stats } from './components';
 
 const App = () => {
   return (
@@ -24,6 +24,7 @@ const App = () => {
           <Business />
           <Billing />
           <CardDeal />
+          <FeedbackCard />
         </div>
       </div>
     </div>
