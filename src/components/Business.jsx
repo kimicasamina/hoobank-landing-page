@@ -28,7 +28,7 @@ const Business = () => {
           we'll handle the money.
         </h3>
         <p className={`${styles.paragraph} mb-8 text-justify lg:text-left`}>With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.</p>
-        <Button />
+        <Button/>
       </div>
       <div className={`${layout.sectionImg} flex-col items-start`}>
         {features.map((feature, index) => {
