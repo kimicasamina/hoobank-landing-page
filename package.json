@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://kimicasamina.github.io/hoobank-landing-page",
+  "homepage": "https://kimicasamina.github.io/hoobank-landing-page/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
